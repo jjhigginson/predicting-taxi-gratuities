@@ -23,3 +23,5 @@ A random forest model was chosen based on maximizing the F1 score via cross-vali
 The chosen algorithm (Random Forest) is good enough at predicting generous tippers, with reasonably strong precision (0.678), recall (0.828), F1 (0.745), and accuracy (0.702) scores. This model is roughly twice as likely to predict a false positive (FP) than a false negative (FN), which means that, when the model is wrong, the driver will more often be disappointed by the lack of a generous tip than be pleasantly surprised by a generous tip. Nevertheless, the model could be deployed to help Yellow Cab drivers select customers who are likely to tip generously.
 
 Significant improvement to the model is unlikely without additional data, such as past tipping behavior for customers. There is opportunity to derive further insight from the data by, for example, clustering with K-Means and analyzing the resulting clusters.
+
+The full analysis (Python Jupyter Notebook) can be found [here](https://nbviewer.org/github/jjhigginson/predicting-taxi-gratuities/blob/main/Predicting_Gratuities.ipynb).
