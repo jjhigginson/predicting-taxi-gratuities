@@ -1,5 +1,5 @@
 # Predicting Gratuities for Taxi Cab Rides in New York City
-> Using multiple linear regression, random forest, and XGBoost models
+> Using multiple linear regression, random forest, and XGBoost models on **tabular data**
 
 ![Photo of taxi by Fernanda Caetano on Unsplash](images/taxi_photo.jpg)
 
